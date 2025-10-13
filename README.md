@@ -13,7 +13,7 @@ Social anxiety (SA) is a highly prevalent and debilitating condition characteriz
 | Role | Name |
 | ---  | ---  |
 | Student Lead | Kianoosh Hosseini |
-| PI | insert team member(s) |
+| PI | George A. Buzzell |
 
 
 Learn more about us [here](https://www.ndclab.com/people).
