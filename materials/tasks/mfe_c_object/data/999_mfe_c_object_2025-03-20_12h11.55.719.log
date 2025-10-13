@@ -1,0 +1,720 @@
+1.3424 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.5270 	INFO 	Loaded monitor calibration from ['2024_10_10 12:15']
+6.5277 	ERROR 	'0.5000, 0.5000, 0.5000' is not a valid rgb color
+6.5339 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1470, 956]. Using actual size
+7.8111 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.8129 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fae6ae766a0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fae79f31460>, multiSample=False, name='window1', numSamples=2, pos=[367.5, 239.0], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.8133 	EXP 	window1: mouseVisible = True
+7.8143 	EXP 	window1: mouseVisible = False
+7.8143 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.8144 	EXP 	window1: recordFrameIntervals = False
+7.8938 	EXP 	window1: recordFrameIntervals = True
+8.6463 	WARNING 	t of last frame was 25.79ms (=1/38)
+8.8100 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.8093 	INFO 	keyboard.Keyboard is using iohub backend.
+10.8094 	EXP 	window1: mouseVisible = False
+10.8504 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='welcome_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+10.8504 	INFO 	keyboard.Keyboard is using iohub backend.
+10.8546 	EXP 	Created instructRight_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructRight_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+10.8965 	EXP 	Created instructRight_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructRight_centerImg', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+10.9174 	EXP 	Created instructRight_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructRight_rightImg1', opacity=1.0, ori=0.0, pos=array([ 0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+10.9377 	EXP 	Created instructRight_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructRight_leftImg1', opacity=1.0, ori=0.0, pos=array([-0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+10.9580 	EXP 	Created instructRight_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructRight_rightImg2', opacity=1.0, ori=0.0, pos=array([ 0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+10.9782 	EXP 	Created instructRight_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructRight_leftImg2', opacity=1.0, ori=0.0, pos=array([-0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+10.9783 	INFO 	keyboard.Keyboard is using iohub backend.
+10.9823 	EXP 	Created instructLeft_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructLeft_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+11.0039 	EXP 	Created instructLeft_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructLeft_centerImg', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.0242 	EXP 	Created instructLeft_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructLeft_rightImg1', opacity=1.0, ori=0.0, pos=array([ 0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.0444 	EXP 	Created instructLeft_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructLeft_leftImg1', opacity=1.0, ori=0.0, pos=array([-0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.0647 	EXP 	Created instructLeft_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructLeft_rightImg2', opacity=1.0, ori=0.0, pos=array([ 0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.0849 	EXP 	Created instructLeft_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructLeft_leftImg2', opacity=1.0, ori=0.0, pos=array([-0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.0849 	INFO 	keyboard.Keyboard is using iohub backend.
+11.0929 	EXP 	Created instructInconRight_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructInconRight_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+11.1138 	EXP 	Created instructIncon_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructIncon_centerImg', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.1345 	EXP 	Created instructIncon_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructIncon_rightImg1', opacity=1.0, ori=0.0, pos=array([ 0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.1548 	EXP 	Created instructIncon_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructIncon_leftImg1', opacity=1.0, ori=0.0, pos=array([-0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.1750 	EXP 	Created instructIncon_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructIncon_leftImg2', opacity=1.0, ori=0.0, pos=array([-0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.1952 	EXP 	Created instructIncon_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructIncon_rightImg2', opacity=1.0, ori=0.0, pos=array([ 0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.1953 	INFO 	keyboard.Keyboard is using iohub backend.
+11.1991 	EXP 	Created instructInconLeft_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructInconLeft_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+11.2193 	EXP 	Created instructInconLeft_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='img/leftArrow.png', interpolate=True, mask=None, maskParams=None, name='instructInconLeft_centerImg', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.2397 	EXP 	Created instructInconLeft_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructInconLeft_rightImg1', opacity=1.0, ori=0.0, pos=array([ 0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.2599 	EXP 	Created instructInconLeft_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructInconLeft_leftImg1', opacity=1.0, ori=0.0, pos=array([-0.03, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.2801 	EXP 	Created instructInconLeft_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructInconLeft_rightImg2', opacity=1.0, ori=0.0, pos=array([ 0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.3004 	EXP 	Created instructInconLeft_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='img/rightArrow.png', interpolate=True, mask=None, maskParams=None, name='instructInconLeft_leftImg2', opacity=1.0, ori=0.0, pos=array([-0.06, -0.3 ]), size=array([0.02, 0.02]), texRes=512, units='height', win=Window(...))
+11.3004 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3034 	EXP 	Created prac_blockText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='prac_blockText', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Practice', units='height', win=Window(...), wrapWidth=1.3)
+11.3105 	EXP 	Created prac_reminder_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prac_reminder_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+11.3105 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3147 	EXP 	Created initFixation_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='initFixation_img', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=512, units='deg', win=Window(...))
+11.3173 	EXP 	Created bigObject = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='bigObject', opacity=0.85, ori=0.0, pos=array([0., 0.]), size=array([13.59,  9.55]), texRes=128.0, units='deg', win=Window(...))
+11.3202 	EXP 	Created cover_background_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cover_background_2', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=128.0, units='deg', win=Window(...))
+11.3233 	EXP 	Created prac_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_centerImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.3259 	EXP 	Created prac_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_rightImg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.3287 	EXP 	Created prac_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_rightImg2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.3314 	EXP 	Created prac_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_leftImg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.3339 	EXP 	Created prac_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_leftImg2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.3360 	EXP 	Created prac_fixImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_fixImg', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=512, units='deg', win=Window(...))
+11.3360 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3363 	EXP 	Created prac_blockFeed_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prac_blockFeed_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+11.3377 	EXP 	Created prac_pressContinue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prac_pressContinue', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text="Press the 'K' key", units='height', win=Window(...), wrapWidth=1.3)
+11.3378 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3483 	EXP 	Created ringBell_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ringBell_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3484 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3487 	EXP 	Created task_blockText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='task_blockText', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+11.3593 	EXP 	Created task_blockReminders_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='task_blockReminders_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.3)
+11.3593 	INFO 	keyboard.Keyboard is using iohub backend.
+11.3626 	EXP 	Created initFixation_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='initFixation_img', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=512, units='deg', win=Window(...))
+11.3654 	EXP 	Created bigObject_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='bigObject_2', opacity=0.85, ori=0.0, pos=array([0., 0.]), size=array([13.59,  9.55]), texRes=128.0, units='deg', win=Window(...))
+11.4048 	EXP 	Created cover_background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='img/cover_background.png', interpolate=True, mask=None, maskParams=None, name='cover_background', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=128.0, units='deg', win=Window(...))
+11.4077 	EXP 	Created task_centerImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_centerImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.4104 	EXP 	Created task_rightImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_rightImg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.4127 	EXP 	Created task_rightImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_rightImg2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.4152 	EXP 	Created task_leftImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_leftImg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.4175 	EXP 	Created task_leftImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_leftImg2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=512, units='deg', win=Window(...))
+11.4198 	EXP 	Created task_fixImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='task_fixImg', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.45]), size=array([8.29 , 6.534]), texRes=512, units='deg', win=Window(...))
+11.4198 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4204 	EXP 	Created task_blockFeed_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='task_blockFeed_text', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.8)
+11.4206 	EXP 	Created task_blockFeed_text2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='task_blockFeed_text2', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+11.4207 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4239 	EXP 	Created ringBell_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ringBell_text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4239 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4364 	EXP 	Created errorNumbers_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='errorNumbers_text_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.12]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4425 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4481 	EXP 	Created errorNumbers_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='errorNumbers_text_3', opacity=1.0, ori=0.0, pos=array([0.  , 0.12]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4513 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4577 	EXP 	Created botherRate_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='botherRate_text', opacity=1.0, ori=0.0, pos=array([0.  , 0.12]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4610 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4662 	EXP 	Created ringBell_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ringBell_text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4662 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4802 	EXP 	Created instruct_surprise1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instruct_surprise1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4802 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4806 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.4809 	EXP 	Created task_blockText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='task_blockText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.3)
+11.4809 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4829 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.4897 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.4999999999999998, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([ 0., 10.]), rgb=UNKNOWN, text='Choose the object you have seen before (old)', units='deg', win=Window(...), wrapWidth=15.0)
+11.4923 	EXP 	Created old_object_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='old_object_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([13.59,  9.55]), texRes=128.0, units='deg', win=Window(...))
+11.4951 	EXP 	Created new_object_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='new_object_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([13.59,  9.55]), texRes=128.0, units='deg', win=Window(...))
+11.4954 	EXP 	Created instructsurpA1_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.2, italic=False, languageStyle='LTR', name='instructsurpA1_right', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+11.4957 	EXP 	Created instructsurpA2_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.2, italic=False, languageStyle='LTR', name='instructsurpA2_left', opacity=1.0, ori=0.0, pos=array([-13.3,  -5. ]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+11.4957 	INFO 	keyboard.Keyboard is using iohub backend.
+11.4969 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.5027 	EXP 	Created ringBell_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ringBell_text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.5027 	INFO 	keyboard.Keyboard is using iohub backend.
+11.5066 	EXP 	Created finishMessage_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='finishMessage_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for your participation!', units='height', win=Window(...), wrapWidth=1.3)
+11.5188 	WARNING 	t of last frame was 2709.27ms (=1/0)
+11.5188 	EXP 	errorNum_text_box: autoLog = True
+11.5188 	EXP 	errorPercent_text_box: autoLog = True
+11.5188 	EXP 	bother_text_box: autoLog = True
+11.5188 	EXP 	welcome_text: autoDraw = True
+12.0697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.0699 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.0737 	DEBUG 	Upload of Texture Font fontname complete
+12.0745 	DATA 	Keypress: k
+12.0812 	WARNING 	t of last frame was 49.33ms (=1/20)
+12.0812 	EXP 	welcome_text: autoDraw = False
+12.0812 	EXP 	instructRight_text: autoDraw = True
+12.0812 	EXP 	instructRight_centerImg: autoDraw = True
+12.0812 	EXP 	instructRight_rightImg1: autoDraw = True
+12.0812 	EXP 	instructRight_leftImg1: autoDraw = True
+12.0812 	EXP 	instructRight_rightImg2: autoDraw = True
+12.0812 	EXP 	instructRight_leftImg2: autoDraw = True
+12.5652 	DATA 	Keypress: k
+12.5726 	EXP 	instructRight_text: autoDraw = False
+12.5726 	EXP 	instructRight_centerImg: autoDraw = False
+12.5726 	EXP 	instructRight_rightImg1: autoDraw = False
+12.5726 	EXP 	instructRight_leftImg1: autoDraw = False
+12.5726 	EXP 	instructRight_rightImg2: autoDraw = False
+12.5726 	EXP 	instructRight_leftImg2: autoDraw = False
+12.5726 	EXP 	instructLeft_text: autoDraw = True
+12.5726 	EXP 	instructLeft_centerImg: autoDraw = True
+12.5726 	EXP 	instructLeft_rightImg1: autoDraw = True
+12.5726 	EXP 	instructLeft_leftImg1: autoDraw = True
+12.5726 	EXP 	instructLeft_rightImg2: autoDraw = True
+12.5726 	EXP 	instructLeft_leftImg2: autoDraw = True
+12.6154 	WARNING 	t of last frame was 21.86ms (=1/45)
+12.6458 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.8223 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.8226 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.8263 	DEBUG 	Upload of Texture Font fontname complete
+12.8268 	DATA 	Keypress: s
+12.8333 	EXP 	instructLeft_text: autoDraw = False
+12.8333 	EXP 	instructLeft_centerImg: autoDraw = False
+12.8333 	EXP 	instructLeft_rightImg1: autoDraw = False
+12.8333 	EXP 	instructLeft_leftImg1: autoDraw = False
+12.8333 	EXP 	instructLeft_rightImg2: autoDraw = False
+12.8333 	EXP 	instructLeft_leftImg2: autoDraw = False
+12.8333 	EXP 	instructInconRight_text: autoDraw = True
+12.8333 	EXP 	instructIncon_centerImg: autoDraw = True
+12.8333 	EXP 	instructIncon_rightImg1: autoDraw = True
+12.8333 	EXP 	instructIncon_leftImg1: autoDraw = True
+12.8333 	EXP 	instructIncon_leftImg2: autoDraw = True
+12.8333 	EXP 	instructIncon_rightImg2: autoDraw = True
+13.0132 	DATA 	Keypress: k
+13.0312 	EXP 	instructInconRight_text: autoDraw = False
+13.0312 	EXP 	instructIncon_centerImg: autoDraw = False
+13.0312 	EXP 	instructIncon_rightImg1: autoDraw = False
+13.0312 	EXP 	instructIncon_leftImg1: autoDraw = False
+13.0312 	EXP 	instructIncon_leftImg2: autoDraw = False
+13.0312 	EXP 	instructIncon_rightImg2: autoDraw = False
+13.0312 	EXP 	instructInconLeft_text: autoDraw = True
+13.0312 	EXP 	instructInconLeft_centerImg: autoDraw = True
+13.0312 	EXP 	instructInconLeft_rightImg1: autoDraw = True
+13.0312 	EXP 	instructInconLeft_leftImg1: autoDraw = True
+13.0312 	EXP 	instructInconLeft_rightImg2: autoDraw = True
+13.0312 	EXP 	instructInconLeft_leftImg2: autoDraw = True
+13.1961 	DEBUG 	Read csv file with pandas: blockSelect_practice.csv
+13.2008 	DEBUG 	Clearing unnamed columns from blockSelect_practice.csv
+13.2018 	EXP 	Imported blockSelect_practice.csv as conditions, 1 conditions, 1 params
+13.2117 	EXP 	Created sequence: random, trialTypes=1, nReps=999, seed=None
+13.2151 	EXP 	New trial (rep=0, index=0): OrderedDict([('whichBlock', 'flanker_practice_block.csv')])
+13.2184 	DATA 	Keypress: s
+13.2241 	EXP 	instructInconLeft_text: autoDraw = False
+13.2241 	EXP 	instructInconLeft_centerImg: autoDraw = False
+13.2241 	EXP 	instructInconLeft_rightImg1: autoDraw = False
+13.2241 	EXP 	instructInconLeft_leftImg1: autoDraw = False
+13.2241 	EXP 	instructInconLeft_rightImg2: autoDraw = False
+13.2241 	EXP 	instructInconLeft_leftImg2: autoDraw = False
+13.2241 	EXP 	prac_blockText: autoDraw = True
+13.2241 	EXP 	prac_reminder_text: autoDraw = True
+13.4063 	DATA 	Keypress: k
+13.4117 	EXP 	prac_blockText: autoDraw = False
+13.4117 	EXP 	prac_reminder_text: autoDraw = False
+13.4117 	EXP 	initFixation_img: image = 'img/transp_fixation.png'
+13.4117 	EXP 	initFixation_img: autoDraw = True
+13.5289 	DATA 	Keypress: s
+15.3977 	DEBUG 	Read csv file with pandas: flanker_practice_block.csv
+15.3993 	DEBUG 	Clearing unnamed columns from flanker_practice_block.csv
+15.4031 	EXP 	Imported flanker_practice_block.csv as conditions, 20 conditions, 11 params
+15.4039 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+15.4043 	EXP 	New trial (rep=0, index=0): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 6), ('congruent', 1), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/usb01.jpg'), ('imageSize', [0.035, 0.035])])
+15.5479 	EXP 	initFixation_img: autoDraw = False
+15.5479 	EXP 	bigObject: image = 'img/object_images/usb01.jpg'
+15.5479 	EXP 	cover_background_2: image = 'img/cover_background.png'
+15.5479 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+15.5479 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+15.5479 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+15.5479 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+15.5479 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+15.5479 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+15.5479 	EXP 	bigObject: autoDraw = True
+15.5479 	EXP 	cover_background_2: autoDraw = True
+15.5479 	EXP 	prac_centerImg: autoDraw = True
+15.5479 	EXP 	prac_rightImg1: autoDraw = True
+15.5479 	EXP 	prac_rightImg2: autoDraw = True
+15.5479 	EXP 	prac_leftImg1: autoDraw = True
+15.5479 	EXP 	prac_leftImg2: autoDraw = True
+15.5479 	EXP 	prac_fixImg: autoDraw = True
+15.7428 	EXP 	prac_centerImg: autoDraw = False
+15.8957 	EXP 	cover_background_2: autoDraw = False
+15.8957 	EXP 	prac_rightImg1: autoDraw = False
+15.8957 	EXP 	prac_rightImg2: autoDraw = False
+15.8957 	EXP 	prac_leftImg1: autoDraw = False
+15.8957 	EXP 	prac_leftImg2: autoDraw = False
+19.5215 	EXP 	New trial (rep=0, index=1): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 6), ('congruent', 1), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/joystick02.jpg'), ('imageSize', [0.035, 0.035])])
+19.6334 	EXP 	bigObject: autoDraw = False
+19.6334 	EXP 	prac_fixImg: autoDraw = False
+19.6334 	EXP 	bigObject: autoDraw = False
+19.6334 	EXP 	cover_background_2: autoDraw = False
+19.6334 	EXP 	prac_centerImg: autoDraw = False
+19.6334 	EXP 	prac_rightImg1: autoDraw = False
+19.6334 	EXP 	prac_rightImg2: autoDraw = False
+19.6334 	EXP 	prac_leftImg1: autoDraw = False
+19.6334 	EXP 	prac_leftImg2: autoDraw = False
+19.6334 	EXP 	prac_fixImg: autoDraw = False
+19.6334 	EXP 	bigObject: image = 'img/object_images/joystick02.jpg'
+19.6334 	EXP 	cover_background_2: image = 'img/cover_background.png'
+19.6334 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+19.6334 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+19.6334 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+19.6334 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+19.6334 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+19.6334 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+19.6334 	EXP 	bigObject: autoDraw = True
+19.6334 	EXP 	cover_background_2: autoDraw = True
+19.6334 	EXP 	prac_rightImg1: autoDraw = True
+19.6334 	EXP 	prac_rightImg2: autoDraw = True
+19.6334 	EXP 	prac_leftImg1: autoDraw = True
+19.6334 	EXP 	prac_leftImg2: autoDraw = True
+19.6334 	EXP 	prac_fixImg: autoDraw = True
+19.6658 	EXP 	prac_centerImg: autoDraw = True
+19.8597 	EXP 	prac_centerImg: autoDraw = False
+19.9826 	EXP 	cover_background_2: autoDraw = False
+19.9826 	EXP 	prac_rightImg1: autoDraw = False
+19.9826 	EXP 	prac_rightImg2: autoDraw = False
+19.9826 	EXP 	prac_leftImg1: autoDraw = False
+19.9826 	EXP 	prac_leftImg2: autoDraw = False
+23.2840 	EXP 	New trial (rep=0, index=2): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 6), ('congruent', 1), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/hair_brush03.jpg'), ('imageSize', [0.035, 0.035])])
+23.3841 	EXP 	bigObject: autoDraw = False
+23.3841 	EXP 	prac_fixImg: autoDraw = False
+23.3841 	EXP 	bigObject: autoDraw = False
+23.3841 	EXP 	cover_background_2: autoDraw = False
+23.3841 	EXP 	prac_centerImg: autoDraw = False
+23.3841 	EXP 	prac_rightImg1: autoDraw = False
+23.3841 	EXP 	prac_rightImg2: autoDraw = False
+23.3841 	EXP 	prac_leftImg1: autoDraw = False
+23.3841 	EXP 	prac_leftImg2: autoDraw = False
+23.3841 	EXP 	prac_fixImg: autoDraw = False
+23.3841 	EXP 	bigObject: image = 'img/object_images/hair_brush03.jpg'
+23.3841 	EXP 	cover_background_2: image = 'img/cover_background.png'
+23.3841 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+23.3841 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+23.3841 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+23.3841 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+23.3841 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+23.3841 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+23.3841 	EXP 	bigObject: autoDraw = True
+23.3841 	EXP 	cover_background_2: autoDraw = True
+23.3841 	EXP 	prac_rightImg1: autoDraw = True
+23.3841 	EXP 	prac_rightImg2: autoDraw = True
+23.3841 	EXP 	prac_leftImg1: autoDraw = True
+23.3841 	EXP 	prac_leftImg2: autoDraw = True
+23.3841 	EXP 	prac_fixImg: autoDraw = True
+23.4318 	EXP 	prac_centerImg: autoDraw = True
+23.6268 	EXP 	prac_centerImg: autoDraw = False
+23.7286 	EXP 	cover_background_2: autoDraw = False
+23.7286 	EXP 	prac_rightImg1: autoDraw = False
+23.7286 	EXP 	prac_rightImg2: autoDraw = False
+23.7286 	EXP 	prac_leftImg1: autoDraw = False
+23.7286 	EXP 	prac_leftImg2: autoDraw = False
+27.0360 	EXP 	New trial (rep=0, index=3): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 7), ('congruent', 0), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/crane02.jpg'), ('imageSize', [0.035, 0.035])])
+27.1367 	EXP 	bigObject: autoDraw = False
+27.1367 	EXP 	prac_fixImg: autoDraw = False
+27.1367 	EXP 	bigObject: autoDraw = False
+27.1367 	EXP 	cover_background_2: autoDraw = False
+27.1367 	EXP 	prac_centerImg: autoDraw = False
+27.1367 	EXP 	prac_rightImg1: autoDraw = False
+27.1367 	EXP 	prac_rightImg2: autoDraw = False
+27.1367 	EXP 	prac_leftImg1: autoDraw = False
+27.1367 	EXP 	prac_leftImg2: autoDraw = False
+27.1367 	EXP 	prac_fixImg: autoDraw = False
+27.1367 	EXP 	bigObject: image = 'img/object_images/crane02.jpg'
+27.1367 	EXP 	cover_background_2: image = 'img/cover_background.png'
+27.1367 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+27.1367 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+27.1367 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+27.1367 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+27.1367 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+27.1367 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+27.1367 	EXP 	bigObject: autoDraw = True
+27.1367 	EXP 	cover_background_2: autoDraw = True
+27.1367 	EXP 	prac_rightImg1: autoDraw = True
+27.1367 	EXP 	prac_rightImg2: autoDraw = True
+27.1367 	EXP 	prac_leftImg1: autoDraw = True
+27.1367 	EXP 	prac_leftImg2: autoDraw = True
+27.1367 	EXP 	prac_fixImg: autoDraw = True
+27.1825 	EXP 	prac_centerImg: autoDraw = True
+27.3763 	EXP 	prac_centerImg: autoDraw = False
+27.4825 	EXP 	cover_background_2: autoDraw = False
+27.4825 	EXP 	prac_rightImg1: autoDraw = False
+27.4825 	EXP 	prac_rightImg2: autoDraw = False
+27.4825 	EXP 	prac_leftImg1: autoDraw = False
+27.4825 	EXP 	prac_leftImg2: autoDraw = False
+31.0613 	EXP 	New trial (rep=0, index=4): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 8), ('congruent', 0), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/spoon01.jpg'), ('imageSize', [0.035, 0.035])])
+31.1619 	EXP 	bigObject: autoDraw = False
+31.1619 	EXP 	prac_fixImg: autoDraw = False
+31.1619 	EXP 	bigObject: autoDraw = False
+31.1619 	EXP 	cover_background_2: autoDraw = False
+31.1619 	EXP 	prac_centerImg: autoDraw = False
+31.1619 	EXP 	prac_rightImg1: autoDraw = False
+31.1619 	EXP 	prac_rightImg2: autoDraw = False
+31.1619 	EXP 	prac_leftImg1: autoDraw = False
+31.1619 	EXP 	prac_leftImg2: autoDraw = False
+31.1619 	EXP 	prac_fixImg: autoDraw = False
+31.1619 	EXP 	bigObject: image = 'img/object_images/spoon01.jpg'
+31.1619 	EXP 	cover_background_2: image = 'img/cover_background.png'
+31.1619 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+31.1619 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+31.1619 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+31.1619 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+31.1619 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+31.1619 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+31.1619 	EXP 	bigObject: autoDraw = True
+31.1619 	EXP 	cover_background_2: autoDraw = True
+31.1619 	EXP 	prac_rightImg1: autoDraw = True
+31.1619 	EXP 	prac_rightImg2: autoDraw = True
+31.1619 	EXP 	prac_leftImg1: autoDraw = True
+31.1619 	EXP 	prac_leftImg2: autoDraw = True
+31.1619 	EXP 	prac_fixImg: autoDraw = True
+31.2097 	EXP 	prac_centerImg: autoDraw = True
+31.3994 	EXP 	prac_centerImg: autoDraw = False
+31.5175 	EXP 	cover_background_2: autoDraw = False
+31.5175 	EXP 	prac_rightImg1: autoDraw = False
+31.5175 	EXP 	prac_rightImg2: autoDraw = False
+31.5175 	EXP 	prac_leftImg1: autoDraw = False
+31.5175 	EXP 	prac_leftImg2: autoDraw = False
+34.7775 	EXP 	New trial (rep=0, index=5): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 8), ('congruent', 0), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/car_toy05.jpg'), ('imageSize', [0.035, 0.035])])
+34.8785 	EXP 	bigObject: autoDraw = False
+34.8785 	EXP 	prac_fixImg: autoDraw = False
+34.8785 	EXP 	bigObject: autoDraw = False
+34.8785 	EXP 	cover_background_2: autoDraw = False
+34.8785 	EXP 	prac_centerImg: autoDraw = False
+34.8785 	EXP 	prac_rightImg1: autoDraw = False
+34.8785 	EXP 	prac_rightImg2: autoDraw = False
+34.8785 	EXP 	prac_leftImg1: autoDraw = False
+34.8785 	EXP 	prac_leftImg2: autoDraw = False
+34.8785 	EXP 	prac_fixImg: autoDraw = False
+34.8785 	EXP 	bigObject: image = 'img/object_images/car_toy05.jpg'
+34.8785 	EXP 	cover_background_2: image = 'img/cover_background.png'
+34.8785 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+34.8785 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+34.8785 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+34.8785 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+34.8785 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+34.8785 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+34.8785 	EXP 	bigObject: autoDraw = True
+34.8785 	EXP 	cover_background_2: autoDraw = True
+34.8785 	EXP 	prac_rightImg1: autoDraw = True
+34.8785 	EXP 	prac_rightImg2: autoDraw = True
+34.8785 	EXP 	prac_leftImg1: autoDraw = True
+34.8785 	EXP 	prac_leftImg2: autoDraw = True
+34.8785 	EXP 	prac_fixImg: autoDraw = True
+34.9287 	EXP 	prac_centerImg: autoDraw = True
+35.1286 	EXP 	prac_centerImg: autoDraw = False
+35.2351 	EXP 	cover_background_2: autoDraw = False
+35.2351 	EXP 	prac_rightImg1: autoDraw = False
+35.2351 	EXP 	prac_rightImg2: autoDraw = False
+35.2351 	EXP 	prac_leftImg1: autoDraw = False
+35.2351 	EXP 	prac_leftImg2: autoDraw = False
+38.7670 	EXP 	New trial (rep=0, index=6): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 5), ('congruent', 1), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/basketball_hoop01.jpg'), ('imageSize', [0.035, 0.035])])
+38.8679 	EXP 	bigObject: autoDraw = False
+38.8679 	EXP 	prac_fixImg: autoDraw = False
+38.8679 	EXP 	bigObject: autoDraw = False
+38.8679 	EXP 	cover_background_2: autoDraw = False
+38.8679 	EXP 	prac_centerImg: autoDraw = False
+38.8679 	EXP 	prac_rightImg1: autoDraw = False
+38.8679 	EXP 	prac_rightImg2: autoDraw = False
+38.8679 	EXP 	prac_leftImg1: autoDraw = False
+38.8679 	EXP 	prac_leftImg2: autoDraw = False
+38.8679 	EXP 	prac_fixImg: autoDraw = False
+38.8679 	EXP 	bigObject: image = 'img/object_images/basketball_hoop01.jpg'
+38.8679 	EXP 	cover_background_2: image = 'img/cover_background.png'
+38.8679 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+38.8679 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+38.8679 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+38.8679 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+38.8679 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+38.8679 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+38.8679 	EXP 	bigObject: autoDraw = True
+38.8679 	EXP 	cover_background_2: autoDraw = True
+38.8679 	EXP 	prac_rightImg1: autoDraw = True
+38.8679 	EXP 	prac_rightImg2: autoDraw = True
+38.8679 	EXP 	prac_leftImg1: autoDraw = True
+38.8679 	EXP 	prac_leftImg2: autoDraw = True
+38.8679 	EXP 	prac_fixImg: autoDraw = True
+38.9100 	EXP 	prac_centerImg: autoDraw = True
+39.0990 	EXP 	prac_centerImg: autoDraw = False
+39.2155 	EXP 	cover_background_2: autoDraw = False
+39.2155 	EXP 	prac_rightImg1: autoDraw = False
+39.2155 	EXP 	prac_rightImg2: autoDraw = False
+39.2155 	EXP 	prac_leftImg1: autoDraw = False
+39.2155 	EXP 	prac_leftImg2: autoDraw = False
+42.5554 	EXP 	New trial (rep=0, index=7): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 5), ('congruent', 1), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/knife03.jpg'), ('imageSize', [0.035, 0.035])])
+42.6541 	EXP 	bigObject: autoDraw = False
+42.6541 	EXP 	prac_fixImg: autoDraw = False
+42.6541 	EXP 	bigObject: autoDraw = False
+42.6541 	EXP 	cover_background_2: autoDraw = False
+42.6541 	EXP 	prac_centerImg: autoDraw = False
+42.6541 	EXP 	prac_rightImg1: autoDraw = False
+42.6541 	EXP 	prac_rightImg2: autoDraw = False
+42.6541 	EXP 	prac_leftImg1: autoDraw = False
+42.6541 	EXP 	prac_leftImg2: autoDraw = False
+42.6541 	EXP 	prac_fixImg: autoDraw = False
+42.6541 	EXP 	bigObject: image = 'img/object_images/knife03.jpg'
+42.6541 	EXP 	cover_background_2: image = 'img/cover_background.png'
+42.6541 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+42.6541 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+42.6541 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+42.6541 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+42.6541 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+42.6541 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+42.6541 	EXP 	bigObject: autoDraw = True
+42.6541 	EXP 	cover_background_2: autoDraw = True
+42.6541 	EXP 	prac_rightImg1: autoDraw = True
+42.6541 	EXP 	prac_rightImg2: autoDraw = True
+42.6541 	EXP 	prac_leftImg1: autoDraw = True
+42.6541 	EXP 	prac_leftImg2: autoDraw = True
+42.6541 	EXP 	prac_fixImg: autoDraw = True
+42.6992 	EXP 	prac_centerImg: autoDraw = True
+42.8953 	EXP 	prac_centerImg: autoDraw = False
+43.0007 	EXP 	cover_background_2: autoDraw = False
+43.0007 	EXP 	prac_rightImg1: autoDraw = False
+43.0007 	EXP 	prac_rightImg2: autoDraw = False
+43.0007 	EXP 	prac_leftImg1: autoDraw = False
+43.0007 	EXP 	prac_leftImg2: autoDraw = False
+46.4391 	EXP 	New trial (rep=0, index=8): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 6), ('congruent', 1), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/vacuum_cleaner01.jpg'), ('imageSize', [0.035, 0.035])])
+46.5375 	EXP 	bigObject: autoDraw = False
+46.5375 	EXP 	prac_fixImg: autoDraw = False
+46.5375 	EXP 	bigObject: autoDraw = False
+46.5375 	EXP 	cover_background_2: autoDraw = False
+46.5375 	EXP 	prac_centerImg: autoDraw = False
+46.5375 	EXP 	prac_rightImg1: autoDraw = False
+46.5375 	EXP 	prac_rightImg2: autoDraw = False
+46.5375 	EXP 	prac_leftImg1: autoDraw = False
+46.5375 	EXP 	prac_leftImg2: autoDraw = False
+46.5375 	EXP 	prac_fixImg: autoDraw = False
+46.5375 	EXP 	bigObject: image = 'img/object_images/vacuum_cleaner01.jpg'
+46.5375 	EXP 	cover_background_2: image = 'img/cover_background.png'
+46.5375 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+46.5375 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+46.5375 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+46.5375 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+46.5375 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+46.5375 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+46.5375 	EXP 	bigObject: autoDraw = True
+46.5375 	EXP 	cover_background_2: autoDraw = True
+46.5375 	EXP 	prac_rightImg1: autoDraw = True
+46.5375 	EXP 	prac_rightImg2: autoDraw = True
+46.5375 	EXP 	prac_leftImg1: autoDraw = True
+46.5375 	EXP 	prac_leftImg2: autoDraw = True
+46.5375 	EXP 	prac_fixImg: autoDraw = True
+46.5935 	EXP 	prac_centerImg: autoDraw = True
+46.7828 	EXP 	prac_centerImg: autoDraw = False
+46.8843 	EXP 	cover_background_2: autoDraw = False
+46.8843 	EXP 	prac_rightImg1: autoDraw = False
+46.8843 	EXP 	prac_rightImg2: autoDraw = False
+46.8843 	EXP 	prac_leftImg1: autoDraw = False
+46.8843 	EXP 	prac_leftImg2: autoDraw = False
+50.4114 	EXP 	New trial (rep=0, index=9): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 7), ('congruent', 0), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/staple_remover01.jpg'), ('imageSize', [0.035, 0.035])])
+50.5147 	EXP 	bigObject: autoDraw = False
+50.5147 	EXP 	prac_fixImg: autoDraw = False
+50.5147 	EXP 	bigObject: autoDraw = False
+50.5147 	EXP 	cover_background_2: autoDraw = False
+50.5147 	EXP 	prac_centerImg: autoDraw = False
+50.5147 	EXP 	prac_rightImg1: autoDraw = False
+50.5147 	EXP 	prac_rightImg2: autoDraw = False
+50.5147 	EXP 	prac_leftImg1: autoDraw = False
+50.5147 	EXP 	prac_leftImg2: autoDraw = False
+50.5147 	EXP 	prac_fixImg: autoDraw = False
+50.5147 	EXP 	bigObject: image = 'img/object_images/staple_remover01.jpg'
+50.5147 	EXP 	cover_background_2: image = 'img/cover_background.png'
+50.5147 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+50.5147 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+50.5147 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+50.5147 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+50.5147 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+50.5147 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+50.5147 	EXP 	bigObject: autoDraw = True
+50.5147 	EXP 	cover_background_2: autoDraw = True
+50.5147 	EXP 	prac_rightImg1: autoDraw = True
+50.5147 	EXP 	prac_rightImg2: autoDraw = True
+50.5147 	EXP 	prac_leftImg1: autoDraw = True
+50.5147 	EXP 	prac_leftImg2: autoDraw = True
+50.5147 	EXP 	prac_fixImg: autoDraw = True
+50.5490 	EXP 	prac_centerImg: autoDraw = True
+50.7453 	EXP 	prac_centerImg: autoDraw = False
+50.8586 	EXP 	cover_background_2: autoDraw = False
+50.8586 	EXP 	prac_rightImg1: autoDraw = False
+50.8586 	EXP 	prac_rightImg2: autoDraw = False
+50.8586 	EXP 	prac_leftImg1: autoDraw = False
+50.8586 	EXP 	prac_leftImg2: autoDraw = False
+54.2281 	EXP 	New trial (rep=0, index=10): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 7), ('congruent', 0), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/accordion02.jpg'), ('imageSize', [0.035, 0.035])])
+54.3295 	EXP 	bigObject: autoDraw = False
+54.3295 	EXP 	prac_fixImg: autoDraw = False
+54.3295 	EXP 	bigObject: autoDraw = False
+54.3295 	EXP 	cover_background_2: autoDraw = False
+54.3295 	EXP 	prac_centerImg: autoDraw = False
+54.3295 	EXP 	prac_rightImg1: autoDraw = False
+54.3295 	EXP 	prac_rightImg2: autoDraw = False
+54.3295 	EXP 	prac_leftImg1: autoDraw = False
+54.3295 	EXP 	prac_leftImg2: autoDraw = False
+54.3295 	EXP 	prac_fixImg: autoDraw = False
+54.3295 	EXP 	bigObject: image = 'img/object_images/accordion02.jpg'
+54.3295 	EXP 	cover_background_2: image = 'img/cover_background.png'
+54.3295 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+54.3295 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+54.3295 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+54.3295 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+54.3295 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+54.3295 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+54.3295 	EXP 	bigObject: autoDraw = True
+54.3295 	EXP 	cover_background_2: autoDraw = True
+54.3295 	EXP 	prac_rightImg1: autoDraw = True
+54.3295 	EXP 	prac_rightImg2: autoDraw = True
+54.3295 	EXP 	prac_leftImg1: autoDraw = True
+54.3295 	EXP 	prac_leftImg2: autoDraw = True
+54.3295 	EXP 	prac_fixImg: autoDraw = True
+54.3768 	EXP 	prac_centerImg: autoDraw = True
+54.5659 	EXP 	prac_centerImg: autoDraw = False
+54.6768 	EXP 	cover_background_2: autoDraw = False
+54.6768 	EXP 	prac_rightImg1: autoDraw = False
+54.6768 	EXP 	prac_rightImg2: autoDraw = False
+54.6768 	EXP 	prac_leftImg1: autoDraw = False
+54.6768 	EXP 	prac_leftImg2: autoDraw = False
+58.2172 	EXP 	New trial (rep=0, index=11): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 8), ('congruent', 0), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/Typewritter01.jpg'), ('imageSize', [0.035, 0.035])])
+58.3201 	EXP 	bigObject: autoDraw = False
+58.3201 	EXP 	prac_fixImg: autoDraw = False
+58.3201 	EXP 	bigObject: autoDraw = False
+58.3201 	EXP 	cover_background_2: autoDraw = False
+58.3201 	EXP 	prac_centerImg: autoDraw = False
+58.3201 	EXP 	prac_rightImg1: autoDraw = False
+58.3201 	EXP 	prac_rightImg2: autoDraw = False
+58.3201 	EXP 	prac_leftImg1: autoDraw = False
+58.3201 	EXP 	prac_leftImg2: autoDraw = False
+58.3201 	EXP 	prac_fixImg: autoDraw = False
+58.3201 	EXP 	bigObject: image = 'img/object_images/Typewritter01.jpg'
+58.3201 	EXP 	cover_background_2: image = 'img/cover_background.png'
+58.3201 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+58.3201 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+58.3201 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+58.3201 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+58.3201 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+58.3201 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+58.3201 	EXP 	bigObject: autoDraw = True
+58.3201 	EXP 	cover_background_2: autoDraw = True
+58.3201 	EXP 	prac_rightImg1: autoDraw = True
+58.3201 	EXP 	prac_rightImg2: autoDraw = True
+58.3201 	EXP 	prac_leftImg1: autoDraw = True
+58.3201 	EXP 	prac_leftImg2: autoDraw = True
+58.3201 	EXP 	prac_fixImg: autoDraw = True
+58.3657 	EXP 	prac_centerImg: autoDraw = True
+58.5600 	EXP 	prac_centerImg: autoDraw = False
+58.6650 	EXP 	cover_background_2: autoDraw = False
+58.6650 	EXP 	prac_rightImg1: autoDraw = False
+58.6650 	EXP 	prac_rightImg2: autoDraw = False
+58.6650 	EXP 	prac_leftImg1: autoDraw = False
+58.6650 	EXP 	prac_leftImg2: autoDraw = False
+61.8968 	EXP 	New trial (rep=0, index=12): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 6), ('congruent', 1), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/skate_board02.jpg'), ('imageSize', [0.035, 0.035])])
+61.9942 	EXP 	bigObject: autoDraw = False
+61.9942 	EXP 	prac_fixImg: autoDraw = False
+61.9942 	EXP 	bigObject: autoDraw = False
+61.9942 	EXP 	cover_background_2: autoDraw = False
+61.9942 	EXP 	prac_centerImg: autoDraw = False
+61.9942 	EXP 	prac_rightImg1: autoDraw = False
+61.9942 	EXP 	prac_rightImg2: autoDraw = False
+61.9942 	EXP 	prac_leftImg1: autoDraw = False
+61.9942 	EXP 	prac_leftImg2: autoDraw = False
+61.9942 	EXP 	prac_fixImg: autoDraw = False
+61.9942 	EXP 	bigObject: image = 'img/object_images/skate_board02.jpg'
+61.9942 	EXP 	cover_background_2: image = 'img/cover_background.png'
+61.9942 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+61.9942 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+61.9942 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+61.9942 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+61.9942 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+61.9942 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+61.9942 	EXP 	bigObject: autoDraw = True
+61.9942 	EXP 	cover_background_2: autoDraw = True
+61.9942 	EXP 	prac_rightImg1: autoDraw = True
+61.9942 	EXP 	prac_rightImg2: autoDraw = True
+61.9942 	EXP 	prac_leftImg1: autoDraw = True
+61.9942 	EXP 	prac_leftImg2: autoDraw = True
+61.9942 	EXP 	prac_fixImg: autoDraw = True
+62.0430 	EXP 	prac_centerImg: autoDraw = True
+62.2327 	EXP 	prac_centerImg: autoDraw = False
+62.3459 	EXP 	cover_background_2: autoDraw = False
+62.3459 	EXP 	prac_rightImg1: autoDraw = False
+62.3459 	EXP 	prac_rightImg2: autoDraw = False
+62.3459 	EXP 	prac_leftImg1: autoDraw = False
+62.3459 	EXP 	prac_leftImg2: autoDraw = False
+65.6651 	EXP 	New trial (rep=0, index=13): OrderedDict([('middleStim', 'img/leftArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 8), ('congruent', 0), ('target', 'left'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/trumpet02.jpg'), ('imageSize', [0.035, 0.035])])
+65.7599 	EXP 	bigObject: autoDraw = False
+65.7599 	EXP 	prac_fixImg: autoDraw = False
+65.7599 	EXP 	bigObject: autoDraw = False
+65.7599 	EXP 	cover_background_2: autoDraw = False
+65.7599 	EXP 	prac_centerImg: autoDraw = False
+65.7599 	EXP 	prac_rightImg1: autoDraw = False
+65.7599 	EXP 	prac_rightImg2: autoDraw = False
+65.7599 	EXP 	prac_leftImg1: autoDraw = False
+65.7599 	EXP 	prac_leftImg2: autoDraw = False
+65.7599 	EXP 	prac_fixImg: autoDraw = False
+65.7599 	EXP 	bigObject: image = 'img/object_images/trumpet02.jpg'
+65.7599 	EXP 	cover_background_2: image = 'img/cover_background.png'
+65.7599 	EXP 	prac_centerImg: image = 'img/leftArrow.png'
+65.7599 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+65.7599 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+65.7599 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+65.7599 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+65.7599 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+65.7599 	EXP 	bigObject: autoDraw = True
+65.7599 	EXP 	cover_background_2: autoDraw = True
+65.7599 	EXP 	prac_rightImg1: autoDraw = True
+65.7599 	EXP 	prac_rightImg2: autoDraw = True
+65.7599 	EXP 	prac_leftImg1: autoDraw = True
+65.7599 	EXP 	prac_leftImg2: autoDraw = True
+65.7599 	EXP 	prac_fixImg: autoDraw = True
+65.8102 	EXP 	prac_centerImg: autoDraw = True
+65.9995 	EXP 	prac_centerImg: autoDraw = False
+66.0992 	EXP 	cover_background_2: autoDraw = False
+66.0992 	EXP 	prac_rightImg1: autoDraw = False
+66.0992 	EXP 	prac_rightImg2: autoDraw = False
+66.0992 	EXP 	prac_leftImg1: autoDraw = False
+66.0992 	EXP 	prac_leftImg2: autoDraw = False
+69.4277 	EXP 	New trial (rep=0, index=14): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/rightArrow.png'), ('rightStim', 'img/rightArrow.png'), ('stimNum', 5), ('congruent', 1), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/usb_drive01.jpg'), ('imageSize', [0.035, 0.035])])
+69.5255 	EXP 	bigObject: autoDraw = False
+69.5255 	EXP 	prac_fixImg: autoDraw = False
+69.5255 	EXP 	bigObject: autoDraw = False
+69.5255 	EXP 	cover_background_2: autoDraw = False
+69.5255 	EXP 	prac_centerImg: autoDraw = False
+69.5255 	EXP 	prac_rightImg1: autoDraw = False
+69.5255 	EXP 	prac_rightImg2: autoDraw = False
+69.5255 	EXP 	prac_leftImg1: autoDraw = False
+69.5255 	EXP 	prac_leftImg2: autoDraw = False
+69.5255 	EXP 	prac_fixImg: autoDraw = False
+69.5255 	EXP 	bigObject: image = 'img/object_images/usb_drive01.jpg'
+69.5255 	EXP 	cover_background_2: image = 'img/cover_background.png'
+69.5255 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+69.5255 	EXP 	prac_rightImg1: image = 'img/rightArrow.png'
+69.5255 	EXP 	prac_rightImg2: image = 'img/rightArrow.png'
+69.5255 	EXP 	prac_leftImg1: image = 'img/rightArrow.png'
+69.5255 	EXP 	prac_leftImg2: image = 'img/rightArrow.png'
+69.5255 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+69.5255 	EXP 	bigObject: autoDraw = True
+69.5255 	EXP 	cover_background_2: autoDraw = True
+69.5255 	EXP 	prac_rightImg1: autoDraw = True
+69.5255 	EXP 	prac_rightImg2: autoDraw = True
+69.5255 	EXP 	prac_leftImg1: autoDraw = True
+69.5255 	EXP 	prac_leftImg2: autoDraw = True
+69.5255 	EXP 	prac_fixImg: autoDraw = True
+69.5768 	EXP 	prac_centerImg: autoDraw = True
+69.7657 	EXP 	prac_centerImg: autoDraw = False
+69.8692 	EXP 	cover_background_2: autoDraw = False
+69.8692 	EXP 	prac_rightImg1: autoDraw = False
+69.8692 	EXP 	prac_rightImg2: autoDraw = False
+69.8692 	EXP 	prac_leftImg1: autoDraw = False
+69.8692 	EXP 	prac_leftImg2: autoDraw = False
+73.0274 	EXP 	New trial (rep=0, index=15): OrderedDict([('middleStim', 'img/rightArrow.png'), ('leftStim', 'img/leftArrow.png'), ('rightStim', 'img/leftArrow.png'), ('stimNum', 7), ('congruent', 0), ('target', 'right'), ('locationC', [0, 0]), ('locationR', [0.0385, 0]), ('locationL', [-0.0385, 0]), ('straightObj', 'img/object_images/rock04.jpg'), ('imageSize', [0.035, 0.035])])
+73.1307 	EXP 	bigObject: autoDraw = False
+73.1307 	EXP 	prac_fixImg: autoDraw = False
+73.1307 	EXP 	bigObject: autoDraw = False
+73.1307 	EXP 	cover_background_2: autoDraw = False
+73.1307 	EXP 	prac_centerImg: autoDraw = False
+73.1307 	EXP 	prac_rightImg1: autoDraw = False
+73.1307 	EXP 	prac_rightImg2: autoDraw = False
+73.1307 	EXP 	prac_leftImg1: autoDraw = False
+73.1307 	EXP 	prac_leftImg2: autoDraw = False
+73.1307 	EXP 	prac_fixImg: autoDraw = False
+73.1307 	EXP 	bigObject: image = 'img/object_images/rock04.jpg'
+73.1307 	EXP 	cover_background_2: image = 'img/cover_background.png'
+73.1307 	EXP 	prac_centerImg: image = 'img/rightArrow.png'
+73.1307 	EXP 	prac_rightImg1: image = 'img/leftArrow.png'
+73.1307 	EXP 	prac_rightImg2: image = 'img/leftArrow.png'
+73.1307 	EXP 	prac_leftImg1: image = 'img/leftArrow.png'
+73.1307 	EXP 	prac_leftImg2: image = 'img/leftArrow.png'
+73.1307 	EXP 	prac_fixImg: image = 'img/transp_fixation.png'
+73.1307 	EXP 	bigObject: autoDraw = True
+73.1307 	EXP 	cover_background_2: autoDraw = True
+73.1307 	EXP 	prac_rightImg1: autoDraw = True
+73.1307 	EXP 	prac_rightImg2: autoDraw = True
+73.1307 	EXP 	prac_leftImg1: autoDraw = True
+73.1307 	EXP 	prac_leftImg2: autoDraw = True
+73.1307 	EXP 	prac_fixImg: autoDraw = True
+73.1655 	EXP 	prac_centerImg: autoDraw = True
+73.3602 	EXP 	prac_centerImg: autoDraw = False
+73.4882 	EXP 	cover_background_2: autoDraw = False
+73.4882 	EXP 	prac_rightImg1: autoDraw = False
+73.4882 	EXP 	prac_rightImg2: autoDraw = False
+73.4882 	EXP 	prac_leftImg1: autoDraw = False
+73.4882 	EXP 	prac_leftImg2: autoDraw = False
+75.0743 	DATA 	Keypress: escape
+75.5208 	EXP 	window1: mouseVisible = True
+75.5210 	DEBUG 	Saving data for mfe_c_object ExperimentHandler
+75.5226 	INFO 	saved data to /Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My Drive/My Digital Life/Professional/Github_Repos/mfe-c-object-dataset/materials/mfe_c_object/data/999_mfe_c_object_2025-03-20_12h11.55.719.psydat
+75.5239 	INFO 	saved data to '/Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My Drive/My Digital Life/Professional/Github_Repos/mfe-c-object-dataset/materials/mfe_c_object/data/999_mfe_c_object_2025-03-20_12h11.55.719.csv'
