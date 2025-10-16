@@ -2,7 +2,7 @@
 .DS_Store
 
 # data specific files
-derivatives/*
+
 sourcedata/
 data-monitoring/ndar/
 data-monitoring/*.out
