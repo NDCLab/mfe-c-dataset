@@ -1,7 +1,7 @@
-# This script will load, and organize the pavlovia data. Then, computes measures of interest.
-# For each participant, a single, new, organized csv file that has all the necessary information will be generated.
+
+
 # Author: Kianoosh Hosseini at NDCLab @FIU (https://Kianoosh.info; https://NDClab.com)
-# Last Update: 2024-02-14 (YYYY-MM-DD)
+# Last Update: 2025-10-16 (YYYY-MM-DD)
 
 library(tidyverse)
 library(dplyr)
@@ -9,7 +9,7 @@ library(stringr)
 library(psycho) # to compute d' measures, etc.
 
 #Working directory should be the Psychopy experiment directory.
-proje_wd <- "/GitHub_Repos/mfe-c-dataset"
+proje_wd <- "/Github_Repos/mfe-c-dataset"
 setwd(proje_wd)
 
 input_raw_path <- paste(proje_wd, "sourcedata", "checked", "psychopy", "mfe-c-object", sep ="/", collapse = NULL) # input data directory
@@ -297,7 +297,7 @@ for (subject in 1:length(raw_datafiles_list)){
 
 
 ### Loading RedCap questionnaire data
-redcapDat <- read.csv(file = "/GitHub_Repos/mfe-c-object-dataset/derivatives/redcap/202402v0memoryforerr_SCRD_2024-09-10_1142.csv")
+redcapDat <- read.csv(file = "/Github_Repos/mfe-c-object-dataset/derivatives/redcap/202402v0memoryforerr_SCRD_2024-09-10_1142.csv")
 
 #
 

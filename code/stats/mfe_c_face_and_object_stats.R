@@ -1,6 +1,6 @@
 # This script will run stats on mfe_c data.
 # Author: Kianoosh Hosseini at NDCLab @FIU (https://Kianoosh.info; https://NDClab.com)
-# Last Update: 2025-01-21 (YYYY-MM-DD)
+# Last Update: 2025-10-16 (YYYY-MM-DD)
 
 library(tidyverse)
 library(dplyr)
@@ -18,7 +18,7 @@ library(effectsize)
 
 # Loading mfe_c_face data
 
-proje_wd <- "/Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My Drive/My Digital Life/Professional/Github_Repos/mfe-c-dataset"
+proje_wd <- "/Github_Repos/mfe-c-dataset"
 setwd(proje_wd)
 
 processed_file_input <- paste(proje_wd, "derivatives", "psychopy", "stat_output", "mfe-c-face", sep ="/", collapse = NULL) # input data directory
@@ -26,7 +26,7 @@ processed_file_input <- paste(proje_wd, "derivatives", "psychopy", "stat_output"
 face_df <-  read.csv(file = paste(processed_file_input, "processed_data_mfe_c_face_Proj_v1.csv", sep ="/", collapse = NULL), stringsAsFactors = FALSE, na.strings=c("", "NA"))
 
 # Keep the columns that we will need
-selected_columns <- face_df[, c("participant_id", "flankEff_meanACC", "congAcc", "incongAcc", "congCorr_meanRT", "incongCorr_meanRT", "committed_errors", "error_proRec", "correct_proRec", "overall_proRec", "proRec_error_minus_correct", "scaared_b_scrdSoc_s1_r1_e1", "scaared_b_scrdGA_s1_r1_e1", "scaared_b_scrdTotal_s1_r1_e1", "bfne_b_scrdTotal_s1_r1_e1", "epepq15_scrdTotal_s1_r1_e1", "phq8_scrdTotal_s1_r1_e1")]
+selected_columns <- face_df[, c("participant_id", "flankEff_meanACC", "congAcc", "incongAcc", "congCorr_meanRT", "incongCorr_meanRT", "committed_errors", "error_proRec", "correct_proRec", "overall_proRec", "proRec_error_minus_correct", "scaared_b_scrdSoc_s1_r1_e1")]
 face_df <- selected_columns
 
 # Check the values in every column in main_df and remove the outliers based on +- 3SD.
@@ -56,7 +56,7 @@ processed_file_input <- paste(proje_wd, "derivatives", "psychopy", "stat_output"
 
 object_df <-  read.csv(file = paste(processed_file_input, "processed_data_mfe_c_object_Proj_v1.csv", sep ="/", collapse = NULL), stringsAsFactors = FALSE, na.strings=c("", "NA"))
 # Keep the columns that we will need
-selected_columns <- object_df[, c("participant_id", "flankEff_meanACC", "congAcc", "incongAcc", "congCorr_meanRT", "incongCorr_meanRT", "committed_errors", "error_proRec", "correct_proRec", "overall_proRec", "proRec_error_minus_correct", "scaared_b_scrdSoc_s1_r1_e1", "scaared_b_scrdGA_s1_r1_e1", "scaared_b_scrdTotal_s1_r1_e1", "bfne_b_scrdTotal_s1_r1_e1", "epepq15_scrdTotal_s1_r1_e1", "phq8_scrdTotal_s1_r1_e1")]
+selected_columns <- object_df[, c("participant_id", "flankEff_meanACC", "congAcc", "incongAcc", "congCorr_meanRT", "incongCorr_meanRT", "committed_errors", "error_proRec", "correct_proRec", "overall_proRec", "proRec_error_minus_correct", "scaared_b_scrdSoc_s1_r1_e1")]
 object_df <- selected_columns
 
 # apply this outlier removing function to all the columns in the dataframe except for participant ID column.
@@ -69,7 +69,16 @@ object_df$group <- 'object' # adding a column that specifies the group (will be 
 # binding these two dataframes two create a single main_df
 main_df <- rbind(face_df, object_df)
 
+# Save the data
+# write the extracted and computed summary scores to disk
+temp_dir1 <- "/Github_Repos/mfe-c-dataset/derivatives/psychopy/stat_output"
+write.csv(main_df, paste(temp_dir1, "mfe_c_final_data.csv", sep = "/", collapse = NULL), row.names=FALSE)
+#########
 
+
+##### To replicate, this final data is available on github repository (see the directory above within the mfe-c-dataset repo).
+##### Load this final data here and then you can run the stats below.
+main_df <-  read.csv(file = paste("/Github_Repos/mfe-c-dataset/derivatives/psychopy/stat_output/mfe_c_final_data.csv", sep ="/", collapse = NULL), stringsAsFactors = FALSE, na.strings=c("", "NA"))
 
 ###################################### accuracy ~ congruency*group MODEL #############################################
 # Reshape to Long Format

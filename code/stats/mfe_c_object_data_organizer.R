@@ -1,7 +1,7 @@
-# This script will load, and organize the Psychopy data for the mfe_c_object study.
+# This script will load, and organize the Psychopy data for the mfe_c_object.
 # For each participant, a single, new, organized csv file that has all the necessary information will be generated.
 # Author: Kianoosh Hosseini at NDCLab @FIU (https://Kianoosh.info; https://NDClab.com)
-# Last Update: 2024-08-15 (YYYY-MM-DD)
+# Last Update: 2025-10-16 (YYYY-MM-DD)
 
 library(tidyverse)
 library(dplyr)
@@ -10,7 +10,7 @@ library(stringr)
 
 
 #Working directory should be the Psychopy experiment directory.
-proje_wd <- "/GitHub_Repos/mfe-c-dataset"
+proje_wd <- "/Github_Repos/mfe-c-dataset"
 setwd(proje_wd)
 
 # Defining the input and output folders.

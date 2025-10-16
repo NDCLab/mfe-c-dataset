@@ -1,15 +1,15 @@
-# This script will load, and organize the pavlovia data. Then, computes measures of interest.
+
 # For each participant, a single, new, organized csv file that has all the necessary information will be generated.
 # Author: Kianoosh Hosseini at NDCLab @FIU (https://Kianoosh.info; https://NDClab.com)
-# Last Update: 2024-08-19 (YYYY-MM-DD)
-# This version computes post-trial hit rates as well.
+# Last Update: 2025-10-16 (YYYY-MM-DD)
+
 library(tidyverse)
 library(dplyr)
 library(stringr)
 library(psycho) # to compute d' measures, etc.
 
 #Working directory should be the Psychopy experiment directory.
-proje_wd <- "/GitHub_Repos/mfe-c-dataset"
+proje_wd <- "/Github_Repos/mfe-c-dataset"
 setwd(proje_wd)
 
 input_raw_path <- paste(proje_wd, "sourcedata", "checked", "psychopy", "mfe-c-face", sep ="/", collapse = NULL) # input data directory
